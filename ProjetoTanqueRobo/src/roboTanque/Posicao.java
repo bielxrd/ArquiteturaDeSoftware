@@ -8,6 +8,6 @@ public interface Posicao {
     public int retPosicaoX();
     public int retPosicaoY();
 
-    
+
 
 }
