@@ -72,7 +72,10 @@ public class TanqueRobo implements Canhao, Cor, Posicao {
 
     @Override
     public void atirar(long cadencia) {
-
+        for (int i = 0; i < 5; i++) {
+            esperar(cadencia * 1000);
+            System.out.println("Atirando...");
+        }
     }
 
     @Override
@@ -84,12 +87,21 @@ public class TanqueRobo implements Canhao, Cor, Posicao {
 
     private void esperar(long cadencia) {
         try {
+            if (cadencia > 5000) {
+                throw new IllegalArgumentException("Invalid input");
+            }
             Thread.sleep(cadencia);
         } catch (InterruptedException e) {
             System.out.println(e.getMessage());
         } finally {
             System.out.println("Not worked!");
         }
+    }
+
+    @Override
+    public String toString() {
+        return "TanqueRobo [x=" + x + ", y=" + y + ", corTanque=" + corTanque + ", corCanhao=" + corCanhao + ", name="
+                + name + "]";
     }
 
 }

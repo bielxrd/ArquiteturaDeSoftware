@@ -1,7 +1,15 @@
 package arena;
 
-public class arena {
+import roboTanque.CoresRGB;
+import roboTanque.TanqueRobo;
+
+public class Arena {
     public static void main(String[] args) {
-        System.out.println("Teste");
+        TanqueRobo tanqueRobo = new TanqueRobo(0, 0, CoresRGB.GREEN, CoresRGB.BLUE, "Canhao");
+
+        tanqueRobo.movNorte();
+        tanqueRobo.movLeste();
+        tanqueRobo.movLeste();
+        System.out.println(tanqueRobo);
     }
 }
