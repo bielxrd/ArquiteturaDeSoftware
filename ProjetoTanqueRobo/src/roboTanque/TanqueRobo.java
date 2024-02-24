@@ -93,8 +93,6 @@ public class TanqueRobo implements Canhao, Cor, Posicao {
             Thread.sleep(cadencia);
         } catch (InterruptedException e) {
             System.out.println(e.getMessage());
-        } finally {
-            System.out.println("Not worked!");
         }
     }
 
