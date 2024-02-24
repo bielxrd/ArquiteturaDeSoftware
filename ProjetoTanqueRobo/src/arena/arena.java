@@ -11,5 +11,11 @@ public class Arena {
         tanqueRobo.movLeste();
         tanqueRobo.movLeste();
         System.out.println(tanqueRobo);
+        try {
+            tanqueRobo.atirar(6);
+
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
