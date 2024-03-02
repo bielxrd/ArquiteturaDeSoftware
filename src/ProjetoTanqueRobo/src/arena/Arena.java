@@ -1,7 +1,7 @@
-package arena;
+package ProjetoTanqueRobo.src.arena;
 
-import roboTanque.CoresRGB;
-import roboTanque.TanqueRobo;
+import ProjetoTanqueRobo.src.roboTanque.CoresRGB;
+import ProjetoTanqueRobo.src.roboTanque.TanqueRobo;
 
 public class Arena {
     public static void main(String[] args) {

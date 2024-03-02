@@ -1,4 +1,4 @@
-package Singleton.singleton;
+package Singleton.Aula1.singleton;
 
 public class Singleton {
 

@@ -1,4 +1,4 @@
-package roboTanque;
+package ProjetoTanqueRobo.src.roboTanque;
 
 public interface Cor {
     public void atribCorTanque(CoresRGB corTanque);

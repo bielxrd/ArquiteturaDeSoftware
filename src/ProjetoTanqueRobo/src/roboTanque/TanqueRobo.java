@@ -1,4 +1,4 @@
-package roboTanque;
+package ProjetoTanqueRobo.src.roboTanque;
 
 public class TanqueRobo implements Canhao, Cor, Posicao {
 

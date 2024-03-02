@@ -1,14 +1,13 @@
-package Singleton.cliente;
+package Singleton.Aula1.cliente;
 
-import java.util.Scanner;
-
-import Singleton.singleton.Singleton;
+import Singleton.Aula1.singleton.Singleton;
 
 public class UsaSingleton {
 
     public static void main(String[] args) {
         Singleton singleton = Singleton.getInstance();
         System.out.println(singleton);
+
     }
     
 }
