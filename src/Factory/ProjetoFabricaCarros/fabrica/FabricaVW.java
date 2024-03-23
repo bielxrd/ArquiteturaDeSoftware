@@ -1,8 +1,9 @@
 package Factory.ProjetoFabricaCarros.fabrica;
 
-public class FabricaVW {
+public class FabricaVW implements Fabrica {
 
-    public static Carro metodoFabrica(Enum listaCarrosVW) {
+    @Override
+    public Carro metodoFabrica(Enum listaCarrosVW) {
         if (listaCarrosVW.equals(ListaCarrosVW.FOX)) {
             return new Fox(50000, "Urban");
         } else if (listaCarrosVW.equals(ListaCarrosVW.JETTA)) {
