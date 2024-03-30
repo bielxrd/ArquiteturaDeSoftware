@@ -4,6 +4,8 @@ import java.awt.*;
 
 public class Leaf implements Component {
 
+    // A leaf (folha) vai ser a representação de um produto simples, nesse caso pode ser um item da cesta de cafe.
+
     private String nome;
     private double preco;
 

@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Composite implements Component {
+    // A composite (composicao) é o elemento da nossa aplicação que sera nossa cesta de cafe, que vai conter tantos leafs(folhas, produtos) e outras composites.
 
     private List<Component> listaProdutos;
     private String nome;
