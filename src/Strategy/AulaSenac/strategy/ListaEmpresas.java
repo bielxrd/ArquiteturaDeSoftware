@@ -1,6 +1,6 @@
-package Strategy.strategy;
+package Strategy.AulaSenac.strategy;
 
-import Strategy.model.Charge;
+import Strategy.AulaSenac.model.Charge;
 
 public enum ListaEmpresas implements CalcularFrete {
 

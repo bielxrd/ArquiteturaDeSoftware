@@ -1,7 +1,7 @@
-package Strategy.client;
+package Strategy.AulaSenac.client;
 
-import Strategy.model.Charge;
-import Strategy.strategy.ListaEmpresas;
+import Strategy.AulaSenac.model.Charge;
+import Strategy.AulaSenac.strategy.ListaEmpresas;
 
 public class UsaStrategy {
     public static void main(String[] args) {

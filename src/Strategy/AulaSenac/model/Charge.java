@@ -1,4 +1,4 @@
-package Strategy.model;
+package Strategy.AulaSenac.model;
 
 public class Charge {
 
