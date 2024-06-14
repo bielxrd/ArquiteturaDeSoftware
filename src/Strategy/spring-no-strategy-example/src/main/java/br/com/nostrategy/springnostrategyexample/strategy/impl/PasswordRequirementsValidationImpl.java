@@ -5,9 +5,11 @@ import br.com.nostrategy.springnostrategyexample.model.exceptions.PasswordRegexE
 import br.com.nostrategy.springnostrategyexample.repository.UserRepository;
 import br.com.nostrategy.springnostrategyexample.strategy.NewAccountValidationStrategy;
 import lombok.SneakyThrows;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Component
+@Order(4)
 public class PasswordRequirementsValidationImpl implements NewAccountValidationStrategy {
     @SneakyThrows
     @Override

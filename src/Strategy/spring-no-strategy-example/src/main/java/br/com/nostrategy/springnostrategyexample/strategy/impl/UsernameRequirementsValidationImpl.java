@@ -4,9 +4,11 @@ import br.com.nostrategy.springnostrategyexample.dto.NewUserRequest;
 import br.com.nostrategy.springnostrategyexample.model.exceptions.PasswordRegexException;
 import br.com.nostrategy.springnostrategyexample.strategy.NewAccountValidationStrategy;
 import lombok.SneakyThrows;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Component
+@Order(6)
 public class UsernameRequirementsValidationImpl implements NewAccountValidationStrategy {
 
     @SneakyThrows

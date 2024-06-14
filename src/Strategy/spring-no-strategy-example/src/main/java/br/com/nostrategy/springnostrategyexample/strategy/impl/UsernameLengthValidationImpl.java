@@ -4,9 +4,11 @@ import br.com.nostrategy.springnostrategyexample.dto.NewUserRequest;
 import br.com.nostrategy.springnostrategyexample.model.exceptions.PasswordLengthException;
 import br.com.nostrategy.springnostrategyexample.strategy.NewAccountValidationStrategy;
 import lombok.SneakyThrows;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Component
+@Order(5)
 public class UsernameLengthValidationImpl implements NewAccountValidationStrategy {
 
     @SneakyThrows
