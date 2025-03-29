@@ -1,4 +1,5 @@
 package Proxy.access.service;
 
-public interface Resource {
+public interface IResource {
+    String getData();
 }
